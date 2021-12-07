@@ -1,4 +1,5 @@
 import { moveToSection } from './moveMentAnimation.js'
+import { hideMenu } from '../burger.js'
 
 export const applications = document.querySelectorAll('[data-form=application]')
 
@@ -18,6 +19,7 @@ export const moveToSendSection = e => {
 
 	if (target === btn) {
 		moveToSection(href)
+		hideMenu()
 	}
 
 	e.preventDefault()

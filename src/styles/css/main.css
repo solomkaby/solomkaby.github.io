@@ -446,7 +446,7 @@ h6 {
           flex-direction: row;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  background-color: #f5f8fe;
+  background-color: #ffffffee;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: 0.6s ease-in-out;
